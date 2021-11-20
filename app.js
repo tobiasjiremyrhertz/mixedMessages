@@ -5,8 +5,8 @@ const jokes = ["Vad säger en Göteborgare till ett Star Wars fan? – JeeDaaaj.
 
 //funktion som spottar ur sig random skämt
 var randomJoke = () => {
-    var randInt = Math.floor(Math.random()*(jokes.length+1));
-    console.log(randInt);
+    var randInt = Math.floor(Math.random()*(jokes.length));
+    console.log(jokes[randInt]);
 }
 
 randomJoke();
